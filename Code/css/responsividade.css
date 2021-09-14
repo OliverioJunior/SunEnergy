@@ -1,28 +1,41 @@
-@media (max-width: 321px) {
+
+
+@media (max-width: 321px) and (min-width: 280px) {
     p {
         font-size: 30px;
-        padding-bottom: 120px;
+        padding-bottom: 200px;
+        justify-content: center;
+        margin: 0;
+       
+    }
+
+    #botaoresponsive {
+        padding: 0 0 50px 50px; 
+        
+    }
+    #imglogo {
+        
+      content: url(../Design/logo.png);
+      padding: 0;
     }
 }
 
-@media (max-width: 415px) {
-    p {
+@media(max-width: 545px) and (min-width: 325px){
+    #imglogo {
+        
+        content: url(../Design/logo.png);
+        padding: 0;
+      }
+      p {
         font-size: 30px;
-        padding-bottom: 250px;
+        padding-bottom: 350px;
+        justify-content: center;
+        margin: 0;
+       
     }
-}
 
-@media (max-width: 376px) {
-    p {
-        font-size: 30px;
-        padding-bottom: 250px;
-    }
-}
-
-@media (max-height: 506px) {
-    p {
-        font-size: 40px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+    #botaoresponsive {
+        padding: 0 0 80px 120px; 
+        
     }
 }
