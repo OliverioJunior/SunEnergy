@@ -1,10 +1,28 @@
 @media (max-width:600px)  {
+  .row{
+      display: flex;
+      width: 100vh;
+  }
+  .flex{
+      margin:0;
+  }
+   .section1{
+      
+      width: 100vh;
+  }
+  
   .main-text{
       font-size: 20px;
   }
-  .navbar{
-      margin-left: 65px;
+ #botaoresponsive{
+    padding-inline-start:0;
+    position: relative;
+ }
+
+  .line{
+      margin: 0;
+      position: sticky;
+
   }
 
-  
 }
